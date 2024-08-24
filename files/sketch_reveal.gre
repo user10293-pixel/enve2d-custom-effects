@@ -1,0 +1,7 @@
+<ShaderEffect name="Sketch Reveal" menuPath="Transitions">
+    <Properties>
+        <Property name="progress" nameUI="Progress" type="float" min="0.0" max="1.0" ini="0.0" step="0.01" glValue="true"/>
+        <Property name="lineWidth" nameUI="Line Width" type="float" min="0.0" max="0.5" ini="0.1" step="0.01" glValue="true"/>
+        <Property name="noise" nameUI="Noise" type="float" min="0.0" max="0.5" ini="0.05" step="0.01" glValue="true"/>
+    </Properties>
+</ShaderEffect>
