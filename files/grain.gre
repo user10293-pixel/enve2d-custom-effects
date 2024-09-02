@@ -1,0 +1,8 @@
+<ShaderEffect name="Grain Effect" menuPath="Generate">
+    <Properties>
+      <Property name="grain_amount" nameUI="Grain Amount" type="float" min="0.0" max="1.0" ini="0.1" step="0.01" glValue="true"/>
+      <Property name="grain_size" nameUI="Grain Size" type="float" min="1.0" max="100.0" ini="1.0" step="0.1" glValue="true"/>
+      <Property name="grain_speed" nameUI="Grain Speed" type="float" min="0.0" max="10.0" ini="0.0" step="0.1" glValue="true"/>
+      <Property name="grain_color" nameUI="Grain Color" type="color" ini="[1.0,1.0,1.0,1.0]" glValue="true"/>
+    </Properties>
+</ShaderEffect>
