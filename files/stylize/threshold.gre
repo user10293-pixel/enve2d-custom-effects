@@ -1,0 +1,6 @@
+<ShaderEffect name="Video Threshold" menuPath="Stylize">
+    <Properties>
+        <Property name="threshold" nameUI="Threshold" type="float" min="0.0" max="1.0" ini="0.5" step="0.01" glValue="true"/>
+        <Property name="background_color" nameUI="Background Color" type="color" ini="[0.0,0.0,0.0,1.0]" glValue="true"/>
+    </Properties>
+</ShaderEffect>
